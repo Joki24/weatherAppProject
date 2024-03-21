@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function getWeather(cityName) {
         // Construct the API URL with the city name and your API key
         let apiKey = 'eac62cb337079c86edeffc949019a62f';
-        let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
+        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
     
         // Send fetch request to the API
         fetch(apiUrl)
